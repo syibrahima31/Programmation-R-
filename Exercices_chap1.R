@@ -31,4 +31,40 @@ Mod(z)
 ### methode 2
 seq(1, 17)
 
+## Exercice 2
+
+# creation du vecteur noms
+noms <-  c("SY", "Ndiaye", "Fall")
+
+# la longeur du vecteur noms
+length(noms)
+
+# le nombres de charactere de haque nom du vec noms
+nchar(noms)
+
+
+# creation de v
+(v <-c(v, NA, NA))
+
+# la moyenne de v
+mean(v)
+mean(v, na.rm = TRUE)
+
+# Variable unEtudiant
+
+unEtudiant <- "201104GYI"
+
+attr(unEtudiant, "nom") <- "Sy"
+attr(unEtudiant, "prenom") <- "Ibrahima"
+attr(unEtudiant, "age") <- 50
+
+
+attributes(unEtudiant)
+
+
+
+
+
+
+
 
