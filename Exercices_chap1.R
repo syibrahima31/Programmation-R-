@@ -1,29 +1,34 @@
-# {
-#   a <-  0
-#   a <-  a + 30
-#   a
-# }
-#
-v <- c(1,2,3,4)
+######## CORRECTION EXRECICES #######
 
-mode(v)
+# exercice 1 :
 
-length(v)
+# affecter A17
+(A17 <-  2017)
 
-class(v)
+# le type de A17
+mode(A17)
+typeof(A17)
 
-typeof(v)
+# conversion A17 en entier
+A17 <-  as.integer(A17)
 
-
-a <-  TRUE
+# Verifiaction
+is.integer(A17)
 
 
-numeric(10)
+# creation du nombre complexe z = 9 +5i
+z <-  9+5i
+Re(z)
+Im(z)
 
-logical(10)
+# calcul du module de Z
+Mod(z)
+
+# vecteur compris entre 5 et 17
+### methode 1
+5:17
+
+### methode 2
+seq(1, 17)
 
 
-z <-  1 + 2i
-
-
-chaine <-  "je suis un actuaire "
