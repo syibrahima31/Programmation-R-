@@ -203,3 +203,79 @@ age>23
 
 #question 12
 noms[age>23]
+
+###################################################
+#Question 1
+noms<-c("Seck","Seb", "Sarr", "Titof","Ba")
+age<-c(18,23, 27, 24,20)
+
+#question 2
+
+noms[3]
+
+#question 3
+
+age[c(2,3,4)]
+
+#question 4
+noms[c(1, 4)]
+
+#question 5
+noms[-3]
+
+#question 6
+prenoms<-c("prenom1","prenom2", "prenom3", "prenom4","prenom5")
+
+#question 7
+names(noms)<-prenoms
+names(age)<-prenoms
+
+#question 8
+noms["prenom3"]
+
+#question9
+age[c("prenom2","prenom3","prenom4")]
+
+#question 10
+noms[c("prenom1", "prenom4")]
+
+#question 11
+age>23
+
+#question 12
+noms[age>23]
+noms[age=23 & age <23]
+
+
+###############################EXERCICE MATRICE##################################
+#Question 1
+(M1=matrix(1:20, nrow=4,ncol=4))
+(M2=matrix(1:20, nrow=4,ncol=4, byrow=TRUE))
+
+
+#question 2
+M1%*%M2
+
+
+
+#question 3
+M3=matrix(1:30, nrow=3,ncol=3, byrow = TRUE)
+M4=matrix(1:30, nrow=3,ncol=3)
+M3%*%M4
+
+
+#Question 4
+M5=matrix(1:30, nrow=3,ncol=3)
+M6=matrix(1:30, nrow=3,ncol=3)
+M5+M6
+
+# Question  5
+bool2<-logical(5)
+bool<-c(TRUE,FALSE,TRUE,TRUE,FALSE)
+
+bool2 & bool ## conjonction
+bool2 |  bool ## dijonction
+
+
+
+
